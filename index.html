@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My USWDS Home Page</title>
+
+  <!-- USWDS CSS from CDN -->
+  <link rel="stylesheet" href="/node_modules/@uswds/uswds/dist/css/uswds.min.css" />
+</head>
+<body class="usa-app__body">
+
+  <!-- USWDS Header -->
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo">
+        <em class="usa-logo__text"
+          ><a href="/" title="<Project title>">&lt;Project title&gt;</a></em
+        >
+      </div>
+      <button type="button" class="usa-menu-btn">Menu</button>
+    </div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+      <button type="button" class="usa-nav__close">
+         <img src="/node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" role="img" alt="Close" />
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link usa-current"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-one"
+          >
+            <span>&lt;Current section&gt;</span>
+          </button>
+          <ul id="basic-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-two"
+          >
+            <span>&lt;Section&gt;</span>
+          </button>
+          <ul id="basic-nav-section-two" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>&lt;Navigation link&gt;</span></a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a href="javascript:void(0);" class="usa-nav-link"
+            ><span>&lt;Simple link&gt;</span></a
+          >
+        </li>
+      </ul>
+      <section aria-label="Search component">
+        <form class="usa-search usa-search--small" role="search">
+          <label class="usa-sr-only" for="search-field">Search</label>
+          <input
+            class="usa-input"
+            id="search-field"
+            type="search"
+            name="search"
+          />
+          <button class="usa-button" type="submit">
+            <img
+              src="/assets/img/usa-icons-bg/search--white.svg"
+              class="usa-search__submit-icon"
+              alt="Search"
+            />
+          </button>
+        </form>
+      </section>
+    </nav>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="usa-section">
+    <div class="grid-container">
+      <h1>Welcome to my USWDS Home Page</h1>
+      <p>This page uses the U.S. Web Design System for styling and layout.</p>
+      <button class="usa-button">Get Started</button>
+    </div>
+  </main>
+
+  <!-- USWDS Footer -->
+  <footer class="usa-footer">
+    <div class="grid-container usa-footer__return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+    <div class="usa-footer__primary-section">
+      <nav class="usa-footer__nav" aria-label="Footer navigation">
+        <ul class="usa-footer__primary-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="usa-footer__secondary-section">
+      <div class="grid-container">
+        <p>© 2026 My Government Site</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- USWDS JS from CDN -->
+  <script src="/node_modules/@uswds/uswds/dist/js/uswds.min.js"></script>
+</body>
+</html>
