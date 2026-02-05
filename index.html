@@ -1,156 +1,305 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My USWDS Home Page</title>
-
+  <title>My Resume</title>
   <!-- USWDS CSS from CDN -->
   <link rel="stylesheet" href="/node_modules/@uswds/uswds/dist/css/uswds.min.css" />
+  <link rel="stylesheet" href="/node_modules/@uswds/uswds/dist/css/style.css" />
 </head>
+
 <body class="usa-app__body">
-
   <!-- USWDS Header -->
-<div class="usa-overlay"></div>
-<header class="usa-header usa-header--basic">
-  <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <div class="usa-logo">
-        <em class="usa-logo__text"
-          ><a href="/" title="<Project title>">&lt;Project title&gt;</a></em
-        >
+  <div class="usa-overlay"></div>
+  <header class="usa-header usa-header--basic">
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <div class="usa-logo">
+          <em class="usa-logo__text"><a href="/" title="Resume">My Resume</a></em>
+        </div>
+
+        <button type="button" class="usa-menu-btn">Menu</button>
       </div>
-
-      git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/your-username/new-project.git
-git push --set-upstream origin main
-
-      <button type="button" class="usa-menu-btn">Menu</button>
-    </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
-      <button type="button" class="usa-nav__close">
-         <img src="/node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" role="img" alt="Close" />
-      </button>
-      <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <button
-            type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
-            aria-expanded="false"
-            aria-controls="basic-nav-section-one"
-          >
-            <span>&lt;Current section&gt;</span>
-          </button>
-          <ul id="basic-nav-section-one" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <button
-            type="button"
-            class="usa-accordion__button usa-nav__link"
-            aria-expanded="false"
-            aria-controls="basic-nav-section-two"
-          >
-            <span>&lt;Section&gt;</span>
-          </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a href="javascript:void(0);" class="usa-nav-link"
-            ><span>&lt;Simple link&gt;</span></a
-          >
-        </li>
-      </ul>
-      <section aria-label="Search component">
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="search-field">Search</label>
-          <input
-            class="usa-input"
-            id="search-field"
-            type="search"
-            name="search"
-          />
-          <button class="usa-button" type="submit">
-            <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
-              class="usa-search__submit-icon"
-              alt="Search"
-            />
-          </button>
-        </form>
-      </section>
-    </nav>
-  </div>
-</header>
-
-  <!-- Main Content -->
-  <main id="main-content" class="usa-section">
-    <div class="grid-container">
-      <h1>Welcome to my USWDS Home Page</h1>
-      <p>This page uses the U.S. Web Design System for styling and layout.</p>
-      <button class="usa-button">Get Started</button>
-    </div>
-  </main>
-
-  <!-- USWDS Footer -->
-  <footer class="usa-footer">
-    <div class="grid-container usa-footer__return-to-top">
-      <a href="#">Return to top</a>
-    </div>
-    <div class="usa-footer__primary-section">
-      <nav class="usa-footer__nav" aria-label="Footer navigation">
-        <ul class="usa-footer__primary-links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Privacy policy</a></li>
+      <nav aria-label="Primary navigation" class="usa-nav">
+        <button type="button" class="usa-nav__close">
+          <img src="/node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <button type="button" class="usa-nav__link usa-current" aria-controls="basic-nav-section-one">
+              <span>Home</span>
+            </button>
+          </li>
+          <li class="usa-nav__primary-item">
+            <button type="button" class="usa-nav__link" aria-controls="basic-nav-section-two">
+              <span>About</span>
+            </button>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a href="#" class="usa-nav-link"><span>Portfolio</span></a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a href="#" class="usa-nav-link"><span>Contact</span></a>
+          </li>
         </ul>
       </nav>
     </div>
-    <div class="usa-footer__secondary-section">
-      <div class="grid-container">
-        <p>© 2026 My Government Site</p>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="usa-section bg_image">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="grid-col-8">
+          <h1>Lingajothi Kanagaraj</h1>
+          <p>
+            Detail-oriented Frontend Developer with strong experience in
+            building responsive, user-friendly web applications. Skilled in
+            modern JavaScript frameworks, performance optimization, and
+            cross-browser compatibility. Passionate about clean UI, smooth UX,
+            and writing maintainable code.
+          </p>
+          <button class="usa-button">Get Started</button>
+        </div>
+        <div class="grid-col-4">
+          <img src="/node_modules/@uswds/uswds/dist/img/profile-img.jpg" alt="main_img" />
+        </div>
       </div>
     </div>
-  </footer>
+    <section class="usa-graphic-list usa-section usa-section--dark margin-y-2">
+      <div class="grid-container usa-section">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-12">
+            <h2 class="site-preview-heading margin-0 text-center">Frontend Developer & Website Developer</h2>
+            <p class="text-center">
+              A strong frontend developer profile with 7+ years of experience
+              should highlight a deep understanding of UI development, strong
+              technical skills, and a track record of delivering successful
+              projects. It should showcase expertise in areas like HTML, CSS,
+              JavaScript, and relevant frameworks and libraries, as well as
+              experience with responsive design, cross-browser compatibility,
+              and performance optimization. Furthermore, demonstrating
+              problem-solving abilities, collaborative skills, and a
+              user-centric approach is crucial.
+            </p>
+          </div>
+        </div>
+        <div class="grid-row grid-gap">
+          <div class="mobile-lg:grid-col-4">
+            <ul class="usa-list">
+              <li><strong>Birthday:</strong> <span>14 May 1996</span></li>
+              <li><strong>Phone:</strong> <span>+91 99411 38849</span></li>
+              <li><strong>City:</strong> <span>Tambaram, Chennai.</span></li>
+              <li><strong>Age:</strong> <span>29</span></li>
+            </ul>
+          </div>
+          <div class="mobile-lg:grid-col-4">
+            <ul class="usa-list"></ul>
+            <li><strong>Degree:</strong> <span>Diploma in Computer Science</span></li>
+            <li><strong>Email:</strong> <span>klingajothi@gmail.com</span></li>
+            <li><strong>Freelance:</strong> <span>Available</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="usa-section">
+      <div class="grid-container">
 
+        <h2 class="text-center">Key Skills</h2>
+
+        <div class="grid-row grid-gap-6 margin-top-4">
+
+          <!-- LEFT COLUMN -->
+          <div class="tablet:grid-col-6">
+
+            <div class="skill">
+              <div class="skill-head">
+                <span>HTML / HTML5</span>
+                <span>100%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:100%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span>CSS / CSS3</span>
+                <span>100%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:100%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span>JavaScript</span>
+                <span>60%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:60%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-head">
+                <span>API Development</span>
+                <span>60%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:60%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-head">
+                <span>Wordpress</span>
+                <span>30%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:30%"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RIGHT COLUMN -->
+          <div class="tablet:grid-col-6">
+
+            <div class="skill">
+              <div class="skill-head">
+                <span>Bootstrap 5</span>
+                <span>100%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:100%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span>Tailwind CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:90%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head">
+                <span>jQuery</span>
+                <span>55%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:55%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-head">
+                <span>VUE JS 3</span>
+                <span>55%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:55%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-head">
+                <span>ANTD Desgin</span>
+                <span>50%</span>
+              </div>
+              <div class="usa-progress">
+                <div class="usa-progress__bar" style="width:50%"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="test-section-id" class="usa-section">
+      <div class="grid-container">
+        <h2 class="font-heading-xl margin-y-0 text-center">Resume</h2>
+        <div class="grid-row grid-gap-6 margin-top-4">
+
+          <!-- LEFT COLUMN -->
+          <div class="tablet:grid-col-6">
+            <ol class="usa-process-list">
+        <li class="usa-process-list__item">
+          <h4 class="usa-process-list__heading">Lingajothi Kanagaraj</h4>
+          <p class="margin-top-05">
+           A good profile summary for a front-end developer with 7+ years of experience should highlight your expertise in building user interfaces, web applications, and your proficiency in relevant technologies.
+          </p>
+          <ul>
+            <li>42-5, 3rd Floor, Jothi Nager 2nd st, Mudichur Rd, Tambaram
+            </li>
+            <li>+91 99411 38849
+            </li>
+            <li>klingajothi@gmail.com</li>
+          </ul>
+        </li>
+        <li class="usa-process-list__item">
+          <h4 class="usa-process-list__heading">Diploma in Computer Science Engineering</h4>
+          <p>
+            2011 - 2014
+          </p>
+          <p>Don Bosco Polytechnic College, Nagapattinam</p>
+        </li>
+        <li class="usa-process-list__item">
+          <h4 class="usa-process-list__heading">SSLC (Secondary School Leaving Certificate)</h4>
+          <p>2010
+          </p>
+          <p>Hindu High School</p>
+        </li>
+      </ol>
+          </div>
+          <div class="tablet:grid-col-6">
+               <ol class="usa-process-list">
+        <li class="usa-process-list__item">
+          <h4 class="usa-process-list__heading">Frontend Developer</h4>
+          <p class="margin-top-05">2018 - 2024</p>
+          <p>Valasaravakkam, Chennai</p>
+          <p>Work Experience: This is where you detail your previous roles, focusing on accomplishments rather than just responsibilities. Use the STAR method (Situation, Task, Action, Result) to describe your contributions.</p>
+          <ul>
+            <li>Situation: "Developed a new e-commerce platform using React."</li>
+            <li>Task: "Responsible for building the front-end components and integrating them with the back-end API."</li>
+            <li>Action: "Collaborated with designers to implement a responsive and user-friendly interface, utilizing modern CSS techniques and JavaScript best practices"</li>
+            <li>Result: "Increased user engagement by 15% and reduced page load times by 25%</li>
+          </ul>
+        </li>
+        <li class="usa-process-list__item">
+          <h4 class="usa-process-list__heading">Website Developer</h4>
+          <p>2015 - 2018
+          </p>
+          <p>Medavakkam, Chennai</p>
+          <ul>
+            <li>"Developed and implemented a new e-commerce website using React and Node.js, resulting in a 15% increase in online sales,"</li>
+            <li>"Improved website load times by 20% by optimizing code and implementing caching strategies,"</li>
+            <li>"Led the development of a mobile-responsive website, increasing mobile traffic by 25%,"</li>
+            <li>"Collaborated with a team of developers to build and maintain a complex web application using Agile methodologies,"</li>
+            <li>"Successfully resolved critical bugs in the company's website, improving user experience,"</li>
+          </ul>
+        </li>
+      </ol>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </section>
+
+
+
+  </main>
+
+ 
   <!-- USWDS JS from CDN -->
   <script src="/node_modules/@uswds/uswds/dist/js/uswds.min.js"></script>
 </body>
+
 </html>
